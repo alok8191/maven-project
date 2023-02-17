@@ -38,6 +38,14 @@
           <target>1.7</target>
         </configuration>
       </plugin>
+             <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.2</version>
+        <configuration>
+          <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>
+        </configuration>
+      </plugin>
 
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
